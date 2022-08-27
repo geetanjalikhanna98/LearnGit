@@ -6,3 +6,72 @@ html, body {
     display: block;
   }
   
+  *{
+    box-sizing: border-box;
+  }
+
+  html{
+    font: system-ui, sans-serif;
+  }
+
+  body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  header, footer{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 128px;
+    margin-top: 0;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: darkblue;
+    text-decoration: underline;
+  }
+
+  #vis{
+    text-align: center;
+    margin-top: 84px;
+  } 
+
+  img {
+    width: 150px;
+  }
+
+  #main-header
+  {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #cover-image{
+    width: fit-content;
+  }
+
+  #cover{
+    position: relative;
+  }
+
+  #cover-text{
+    position: absolute;
+    left: 240px;
+    top: 272px;
+    font-weight: bold;
+    font-size: 48px;
+    width: 600px;
+    color: #0F1C80;
+  }
