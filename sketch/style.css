@@ -62,12 +62,7 @@ html, body {
     width: fit-content;
   }
 
-  #cover{
-    position: relative;
-  }
-
   #cover-text{
-    position: absolute;
     left: 240px;
     top: 272px;
     font-weight: bold;
